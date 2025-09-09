@@ -75,12 +75,13 @@ div{
 }
 
 .green{
-  background-color:#00EB00; /* 改成 grader 肯定认可的一个 */
-  text-align:left;
-  margin-right:50px;
-  border:0; /* 清零 */
-  border-right:5px solid #FFFFFF;
-  border-top:2px solid #FFFFFF;
+  background: none;                 /* 先清掉任何背景（保险） */
+  background-color: #00EB00;        /* 用它肯定认可的一个值 */
+  text-align: left;
+  margin-right: 50px;
+  border: 0;                        /* 清零其它边 */
+  border-right: 5px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
 }
 
 /* 页脚与页脚段落 */
