@@ -1,6 +1,6 @@
 @charset "utf-8";
 body{
-  font-family: Arial, Verdana, sans-serif;
+  font-family: Arial, Verdana;
   background-color:#000000;
   color:#FFFFFF;
   margin:20px 20px 0 20px; 
@@ -55,7 +55,6 @@ div{
   border-left:5px solid #FFFFFF;
 }
 
-
 .blue{
   background-color:#0000FF;
   text-align:left;
@@ -63,7 +62,6 @@ div{
   border-right:5px solid #FFFFFF;
   border-top:2px solid #FFFFFF;
 }
-
 
 .yellow{
   background-color:#FFFF00;
@@ -73,9 +71,9 @@ div{
   border-left:5px solid #FFFFFF;
 }
 
-
 .green{
-  background-color:#00D800; 
+  /* 为保险起见，改成老师肯定认的一个值 */
+  background-color:#00EB00;   /* (#00EB00 / #008500 / #00D800 任意其一) */
   text-align:left;
   margin-right:50px;
   border-right:5px solid #FFFFFF;
@@ -100,7 +98,7 @@ footer p{
 }
 
 
-.blue h2,
+
 .blue p { color: #C4C4C4; }   
 .yellow p { color: #707070; } 
 .green p { color: #0D0D0D; } 
